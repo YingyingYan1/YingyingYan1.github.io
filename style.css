@@ -1,0 +1,164 @@
+body {
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #333;
+  background: #fff;
+  margin: 0;
+}
+
+#layout {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px 60px;
+  box-sizing: border-box;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+a:hover {
+  color: #f09228;
+}
+
+.name {
+  font-size: 34px;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px 0 20px;
+}
+
+/* Intro: text left, photo right */
+.intro-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.intro-text {
+  vertical-align: middle;
+  padding-right: 30px;
+}
+.intro-photo {
+  width: 200px;
+  vertical-align: middle;
+  text-align: center;
+}
+.intro-photo img {
+  width: 180px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.photo-caption {
+  font-size: 12px;
+  color: #888;
+  margin-top: 6px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 34px 0 12px;
+  padding-bottom: 4px;
+}
+
+/* News */
+.news-list {
+  margin: 0;
+  padding-left: 4px;
+  list-style: none;
+}
+.news-list li {
+  margin: 5px 0;
+}
+
+/* Publications: image left, text right */
+.pub-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.pub-table td {
+  padding: 14px 0;
+  vertical-align: middle;
+}
+.pub-img {
+  width: 190px;
+  padding-right: 22px !important;
+  text-align: center;
+}
+.pub-img img {
+  width: 180px;
+  border-radius: 4px;
+}
+.pub-img .noimg {
+  width: 180px;
+  height: 100px;
+  border-radius: 4px;
+  background: #f4f4f4;
+  color: #bbb;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.pub-title {
+  font-weight: 700;
+  font-size: 16px;
+}
+.pub-authors {
+  margin: 3px 0;
+}
+.pub-venue {
+  font-style: italic;
+  margin: 3px 0;
+}
+.pub-links {
+  margin: 3px 0;
+}
+.pub-desc {
+  color: #555;
+  margin: 4px 0 0;
+}
+.me {
+  font-weight: 700;
+}
+.highlight-venue {
+  color: #c0392b;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Experience / projects */
+.exp-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.exp-table td {
+  padding: 8px 0;
+  vertical-align: top;
+}
+.exp-time {
+  width: 160px;
+  color: #777;
+  text-align: right;
+}
+.exp-title {
+  font-weight: 700;
+}
+
+/* Awards & skills */
+.simple-list {
+  margin: 0;
+  padding-left: 20px;
+}
+.simple-list li {
+  margin: 5px 0;
+}
+
+.footnote {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  margin-top: 50px;
+}
